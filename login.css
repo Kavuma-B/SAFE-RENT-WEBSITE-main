@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 13px;
+    width: 100%;
+}
+
+
+header{
+    background-color: rgba(109, 109, 244, 0.833);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    width: inherit;
+}
+
+li{
+    display: inline;
+}
+
+nav a{
+     text-decoration: none;
+     padding: 20px; 
+}
+
+header h1{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+header button{
+    background-color:white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.main4{
+    
+    padding-top: 40px;
+}
+
+
+
+.sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.sub2 h2{
+    text-align: center;
+}
+.sub2 p{
+    text-align: center;
+}
+.sub2 form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+
+.sub2 form button{
+    background-color: gold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: rgb(8, 8, 153);
+}

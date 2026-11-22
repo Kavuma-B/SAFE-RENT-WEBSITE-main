@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Details</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Safe Rent</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="find.html">Find a plce </a></li>
+                <li><a href="view-details.html">Details</a></li>
+                <li><a href="landlord.html">landlord-dashbord</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <p><a href="sign.html">Sign Up</a></p>
+        <button><a href="login.html">Login</a></button>
+    </header>
+    
+    <main class="main2">
+        
+        <h1>Available Rooms</h1>
+        <p id="paragraph1">Find the best accommodation in your preferred area</p>
+
+        <section class="filter">
+            <h3>Filter Your Search</h3>
+            <form action="">
+                <div class="filtergroup">
+                    <label for="price">Price range</label>
+                    <select name="price" id="price">
+                        <option value="any area">Any Area</option>
+                        <option value="300,000">300,000</option>
+                        <option value="400,000">400,000</option>
+                        <option value="500,000">500,000</option>
+                    </select>
+
+                </div>
+
+                <div class="filtergroup">
+                    <label for="area">Area</label>
+                    <select name="area" id="area">
+                        <option value="nakawa">Nakawa</option>
+                        <option value="ntinda">Ntinda</option>
+                        <option value="makindye">Makindye</option>
+                        <option value="mengo">Mengo</option>
+                        <option value="nansana">Nansana</option>
+                        <option value="any area">Any other area</option>
+                    </select> 
+                </div>
+                
+                <div class="filtergroup">
+                    <label for="room">Room type</label>
+                    <select name="single" id="room">
+                        <option value="single room">Single room</option>
+                        <option value="double">Double room</option>
+                        <option value="3 bedroom">3 bedroom house</option>
+                    </select>
+                </div>
+
+                
+                <button class="formbutto">Enter</button>
+            </form>
+        </section>
+
+        
+        <section id="details">
+            <article class="rooms">
+                <img src="HOUSES/3bedroom apart.jpg" alt="3bedroom" width="400" height="250">
+                <figcaption>
+                    <h3>3 Bedroom House</h3>
+                    <p>UGX 600,000</p>
+                    <button><a href="details">View details</a></button>
+                </figcaption>
+            </article>
+
+            <article class="rooms">
+                <img src="HOUSES/serviced apartment in Kololo.webp" alt="apartment" width="400" height="250">
+                <figcaption>
+                    <h3>Serviced Apartment</h3>
+                    <p>UGX800,000</p>
+                    <button><a href="view-details.html">View details</a></button>
+                </figcaption>
+            </article>
+
+            <article class="rooms">
+                <img src="HOUSES/single room.jpg" alt="single room failed to load" width="400" height="250">
+                <figcaption>
+                    <h3>Single room</h3>
+                    <p>UGX 300,000</p>
+                    <button><a href="details">View details</a></button>
+                </figcaption>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="morehouses">
+            <p><a href="1">1</a></p>
+            <p><a href="2">2</a></p>
+            <p><a href="2">3</a></p>
+            <p><a href="arrow">&rarr;</a></p>
+        </div>
+    </footer>
+           
+    </body>
+</html>
